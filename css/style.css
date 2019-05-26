@@ -10,3 +10,10 @@ hr {
     width:100%;
 }
 
+.contato img {
+    width: 48px;
+}
+
+button {
+    height: 50px;
+}
