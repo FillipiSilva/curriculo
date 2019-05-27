@@ -7,31 +7,39 @@ h1, h2 {
 hr {
     border-color:#aaa;
     box-sizing:border-box;
-    width:100%;
+    width:100vw;
 }
 
 .contato img {
     width: 48px;
 }
 
+.ling img {
+    width: 70px;
+    height: 70px;
+}
+
 button {
     height: 50px;
 }
 
-.zoom .foco{
+.zoom .foco .ling{
     overflow: hidden;
 } 
 
-.foto, .foco img {
+.foto, .foco img, .ling img {
     max-width: 100%;
     transition: all 0.3s;
 }
 
 .foto:hover {
     transform: scale(1.1);
-
 }
 
-.foco img:hover {
-    transform: scale(1.1);
+.foco img:hover, .ling img:hover {
+    transform: scale(1.2);
+}
+
+.react:hover{
+    transform: rotate(360deg);
 }
