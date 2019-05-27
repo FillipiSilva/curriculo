@@ -11,14 +11,16 @@
     <title>Currículo</title>
 </head>
 <body>
+    <div class="container">
     <header>
-        <div class="d-flex justify-content-around mt-5">
+        <div class="d-flex justify-content-around my-1">
             <nav>
                 <a href="#sobreMim" class="btn btn-outline-primary ml-3">SOBRE MIM</a>
                 <a href="#cursos" class="btn btn-outline-primary ml-3">CURSOS</a>
                 <a href="#experiencia" class="btn btn-outline-primary ml-3">EXPERIÊNCIA</a>
                 <a href="#linguagens" class="btn btn-outline-primary ml-3">LINGUAGENS</a>
                 <a href="#contato" class="btn btn-outline-primary ml-3">CONTATO</a>
+                <button onclick="topFunction()" id="myBtn" title="Go to top">TOPO</button>
             </nav>
         </div>
         <div class="d-flex justify-content-center zoom">
@@ -75,7 +77,7 @@
                 <img src="img/icone-css.png" class="ml-3" alt="css">
                 <img src="img/icone-bootstrap.png" class="ml-3" alt="bootstrap">
                 <img src="img/icone-js.png" class="ml-3" alt="javascript">
-                <img src="img/icone-react.png" class="ml-3 react" alt="react">
+                <img src="img/icone-react.png" id="vitt" class="ml-3 react" alt="react">
                 <img src="img/icone-intellij.png" class="ml-3" alt="intellij">
             </div>
     </section>
@@ -89,15 +91,18 @@
         <div class="d-flex justify-content-around contato">
             <button type="button" class="btn btn-primary btn-lg m-5">CONTATO</button>
             <div class="foco">
-                <a href=""><img src="img/icon-email.svg" class="icon1 py-4 m-3" alt=""></a> 
+                <!-- <a href=""><img src="img/icon-email.svg" class="icon1 py-4 m-3" alt=""></a>  -->
                 <a href=""><img src="img/icon-facebook.svg" class="icon2 py-4 m-3" alt=""></a>
                 <a href=""><img src="img/icon-github.svg" class="icon3 py-4 m-3" alt=""></a>
                 <a href=""><img src="img/icon-instagram.svg" class="icon4 py-4 m-3" alt=""></a> 
                 <a href=""><img src="img/icon-linkedin.svg" class="icon5 py-4 m-3" alt=""></a> 
                 <a href=""><img src="img/icon-twitter.svg" class="icon6 py-4 m-3" alt=""></a> 
-                <a href=""><img src="img/icon-whatsapp.svg" class="icon7 py-4 m-3" alt=""></a> 
+                <!-- <a href=""><img src="img/icon-whatsapp.svg" class="icon7 py-4 m-3" alt=""></a>  -->
             </div>
         </div>
     </footer>
+</div>
+
+<script src="js/script.js"></script>
 </body>
 </html>
